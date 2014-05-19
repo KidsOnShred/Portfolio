@@ -1,0 +1,222 @@
+  /*============ Elements ============*/
+
+ body {
+	background: url(/new/img/bg.jpg) no-repeat center center fixed; 
+ 	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color:#fefefe;
+	font-size:14px;
+ }
+ a:link, a:hover, a:active, a:visited {text-decoration:none;}
+ h1, h2, h3, h4, h5 {
+	/*peachborder-left:5px solid #f9645c;*/
+	border-left:5px solid #5e9758;
+	font-family:'BebasNeueRegular';
+	line-height:1em;
+	padding:0 0.4em;
+ }
+ ul { 
+ 	color:#676464;
+	list-style-type:square;
+ }
+ li {
+	color:#fefefe; 
+ }
+  /*============ Layout ============*/
+
+ header {
+	background:URL(../img/header-bg.png);
+	font-family:'BebasNeueRegular';
+	height:80px;
+	padding:20px 0;
+	position:relative;
+	width:100%;
+ }
+ header .container {
+	position:relative; 
+ }
+ .logo-container {
+	overflow:hidden; 
+ }
+ #snowflake {
+	left:51px;
+	position:absolute; 
+	top:24px;
+ }
+ #logo {
+	cursor:pointer; 
+ }
+ header img {
+	float:left; 
+ }
+ header nav {
+	overflow:hidden;
+	font-size:1.6em; 
+	margin-top:1em;
+	position:absolute;
+	bottom:0;
+	right:0;
+ }
+ header nav a {
+	display:inline-block;
+	color:#ffffff;
+	margin:0 0.6em;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+ }
+ header nav a:hover {
+	bottom:12px;
+	color:#5e9758;
+ }
+ 
+ .quote {
+	 color:#676464;
+	 background:rgba(237,237,237,0.8);
+	 padding:1em;
+	 position:relative;
+ }
+ .quote h2 {
+	font-size:2.2em; 
+ }
+ .quote-left, .quote-right {
+	 position:absolute;
+ }
+ .quote-left {
+	top:-10px;
+	left:-10px; 
+ }
+ .quote-right {
+	bottom:-10px;
+	right:-10px;
+ }
+ .quote h2 {
+	font-family: 'WalkwayObliqueRegular';
+ }
+ 
+ .ideology-circle {
+	background:#1a232e;
+	border-radius:50%;
+	height:220px;
+	margin:auto;
+	margin-bottom:2em;
+	width:220px;
+ }
+ .work-examples {
+	border-bottom:5px solid #676464;
+	display:block;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+ }
+ .work-examples:hover {
+	border-bottom:5px solid #5e9758;
+ }
+ 
+ footer {
+	background:#1a232e;
+	border-top:5px solid #5e9758;
+	color:#e7e7e7;
+ }
+ footer a {
+	display:inline-block;
+	color:#f4f3f3;
+	margin:1em 0;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+ }
+ footer a:hover {
+	bottom:12px;
+	color:#5e9758;
+ }
+ .text-align-right {
+	 margin:10px 0;
+	 text-align:right
+ }
+ 
+ /*============ Form ============*/
+ input {
+	width:90%; 
+ }
+ textarea {
+	width:95%;
+	height:200px; 
+ }
+ 
+  /*============ Paddings and Margins ============*/
+ .double-padding {
+	padding:2em; 
+ }
+ .double-padding-h {
+	padding:0 2em; 
+ }
+ .double-padding-v {
+	padding:2em 0; 
+ }
+ .full-padding {
+	padding:1em; 
+ }
+ .full-padding-h {
+	padding:0 1em; 
+ }
+ .full-padding-v {
+	padding:1em 0; 
+ }
+ .half-padding {
+	padding:0.5em; 
+ }
+ .half-padding-h {
+	padding:0 0.5em; 
+ }
+ .half-padding-v {
+	padding:0.5em 0; 
+ }
+ 
+ .double-margin-t {
+	margin-top:2em; 
+ } 
+ 
+ /*============ Fonts ============*/
+ @font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('../font/BebasNeue-webfont.eot');
+    src: url('../font/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/BebasNeue-webfont.woff') format('woff'),
+         url('../font/BebasNeue-webfont.ttf') format('truetype'),
+         url('../font/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'WalkwaySemiBoldRegular';
+    src: url('../font/Walkway_SemiBold-webfont.eot');
+    src: url('../font/Walkway_SemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/Walkway_SemiBold-webfont.woff') format('woff'),
+         url('../font/Walkway_SemiBold-webfont.ttf') format('truetype'),
+         url('../font/Walkway_SemiBold-webfont.svg#WalkwaySemiBoldRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'WalkwayObliqueRegular';
+    src: url('../font/Walkway_Oblique-webfont.eot');
+    src: url('../font/Walkway_Oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/Walkway_Oblique-webfont.woff') format('woff'),
+         url('../font/Walkway_Oblique-webfont.ttf') format('truetype'),
+         url('../font/Walkway_Oblique-webfont.svg#WalkwayObliqueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
